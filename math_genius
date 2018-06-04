@@ -1,0 +1,31 @@
+require_relative 'multilinguist'
+require "pry"
+
+class MathGenius
+
+  def initialize
+    super
+  end
+
+  def report_total(array)
+    total = array.sum
+    say_in_local_language('The total is #{array}')
+  end
+
+end
+
+me = MathGenius.new
+binding.pry
+
+
+
+
+
+
+
+
+
+
+
+
+end
